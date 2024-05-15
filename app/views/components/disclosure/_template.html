@@ -1,0 +1,10 @@
+<abc-disclosue>
+  <template shadowrootmode="open">
+    <details>
+      <summary><slot name="summary"></slot></summary>
+      <slot></slot>
+    </details>
+  </template>
+  <span slot="summary">{{summary}}</span>
+  <span>{{content}}</span>
+</abc-disclosue>

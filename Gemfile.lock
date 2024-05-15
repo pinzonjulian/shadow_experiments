@@ -129,6 +129,7 @@ GEM
     mini_mime (1.1.5)
     minitest (5.22.3)
     msgpack (1.7.2)
+    mustache (1.1.1)
     mutex_m (0.2.0)
     net-imap (0.4.11)
       date
@@ -263,6 +264,7 @@ DEPENDENCIES
   debug
   jbuilder
   jsbundling-rails
+  mustache (~> 1.1)
   propshaft
   puma (>= 5.0)
   rails (~> 7.1.3, >= 7.1.3.2)
