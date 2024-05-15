@@ -2,3 +2,13 @@
 <p>Find me in app/views/home/show.html.erb</p>
 
 <%= render DisclosureComponent.new(summary: "Open me", content: "I am the content!") %>
+
+<%= render DisclosureWithSlotsComponent.new do |disclosure| %>
+  <% disclosure.summary do %>
+    <h2 class="inline-block">Open me</h2>
+  <% end %>
+
+  <% disclosure.content do %>
+    <p>I am the content!</p>
+  <% end %>
+<% end %>
